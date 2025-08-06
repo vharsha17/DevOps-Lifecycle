@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevOps Lifecycle</title>
+    <style>
+        body {
+            background: #e97979;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 20px;
+            color: #333;
+        }
+        .lifecycle {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        .stage {
+            background: #ffffff;
+            border: 2px solid #4CAF50;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #4CAF50;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .stage:hover {
+            transform: scale(1.1);
+        }
+        .arrow {
+            width: 50px;
+            height: 50px;
+            margin-top: 50px;
+        }
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>DevOps Lifecycle</h1>
+    <div class="lifecycle">
+        <div class="stage">Plan</div>
+        <img src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" class="arrow">
+        <div class="stage">Develop</div>
+        <img src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" class="arrow">
+        <div class="stage">Build</div>
+        <img src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" class="arrow">
+        <div class="stage">Test</div>
+    </div>
+    <div class="lifecycle">
+        <div class="stage">Release</div>
+        <img src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" class="arrow">
+        <div class="stage">Deploy</div>
+        <img src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" class="arrow">
+        <div class="stage">Operate</div>
+        <img src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" class="arrow">
+        <div class="stage">Monitor</div>
+    </div>
+</body>
+</html>
